@@ -165,11 +165,6 @@ kubectl autoscale deployment my-app --cpu-percent=50 --min=2 --max=10
 - **Implement Network Policies**
 - **Apply Pod Security Standards**
 
-📌 **Helpful Resources**:
-
-- [Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
-- [Kubernetes Hardening Guide](https://www.cisa.gov/kubernetes-hardening-guide)
-- [Kubernetes Security Best Practices](https://kubernetes.io/docs/concepts/security/)
 
 ---
 

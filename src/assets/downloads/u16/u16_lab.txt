@@ -30,7 +30,7 @@ Web server must respond on port 80.
     Answer: `ss -ntulp` will show port 80.
 
 The server is currently set on 8087 and needs to be fixed
-in /etc/httpd/conf/http.conf. The “Listen 8087” line must be changed to “Listen 80” and the
+in /etc/httpd/conf/httpd.conf. The “Listen 8087” line must be changed to “Listen 80” and the
 service restarted `systemctl restart httpd`
 
 Ensure that the server can be reached by external connection attempts on port 80.
